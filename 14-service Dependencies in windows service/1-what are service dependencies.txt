@@ -1,0 +1,8 @@
+1. What Are Service Dependencies?
+A service dependency is a relationship where one service (dependent service) relies on another service (dependency) to start and run properly. The dependent service cannot start until its dependencies have started.
+
+Why Are Service Dependencies Important?
+Ensures the correct startup order of services.
+Prevents errors or failures if a required service is not running.
+Helps manage complex systems with interdependent services.
+Improves reliability and stability for services requiring prerequisites.

@@ -1,0 +1,16 @@
+2. Using Command Prompt
+You can configure a service to start automatically using the sc command.
+
+Steps:
+Open Command Prompt as Administrator.
+Set the service start-up type to Automatic:
+sc config "YourServiceName" start= auto
+
+For Automatic (Delayed Start):
+sc config "YourServiceName" start= delayed-auto
+
+
+Verify:
+Run the following command to check the service's configuration:
+
+sc qc "YourServiceName"

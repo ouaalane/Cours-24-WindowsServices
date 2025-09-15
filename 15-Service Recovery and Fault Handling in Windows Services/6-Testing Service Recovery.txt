@@ -1,0 +1,19 @@
+  5. Testing Service Recovery
+5. Testing Service Recovery
+1- Install the Service: Use InstallUtil to install the service:
+
+cmd
+Copy code
+InstallUtil MyCustomService.exe
+
+
+2-Configure Recovery Actions: Set recovery actions using the SC command:
+
+cmd
+Copy code
+sc failure MyCustomService reset= 86400 actions= restart/10000/restart/10000/""/0
+
+
+3- Simulate a Failure: Start the service and observe the logs. The service will fail, trigger recovery, and restart.
+
+4- Verify Logs: Check the log file (C:\ServiceLogs\RecoveryLog.txt) to ensure the service restarted after the failure.

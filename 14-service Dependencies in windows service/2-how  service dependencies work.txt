@@ -1,0 +1,8 @@
+2. How Service Dependencies Work
+Key Principles:
+A service cannot start unless all its dependencies are already running.
+If a dependency service stops, the dependent service will also stop (depending on the configuration).
+Dependencies are managed by the Service Control Manager (SCM).
+Example of Service Dependencies:
+Service A depends on Service B.
+When you attempt to start Service A, Windows ensures Service B starts first.

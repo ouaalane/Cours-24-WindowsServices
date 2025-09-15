@@ -1,0 +1,6 @@
+Triggered Start Services
+Description: Start automatically in response to specific triggers, such as network availability or device insertion.
+Purpose: Minimize resource usage by running services only when required.
+Examples:
+Windows Audio Service (AudioSrv): Starts when an audio device is connected.
+Bluetooth Support Service (bthserv): Activates when a Bluetooth device is detected.

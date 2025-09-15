@@ -1,0 +1,2 @@
+Overview
+In this lesson, we will explore service dependencies in Windows Services. Understanding service dependencies ensures that services start, stop, and function correctly in the required order. Proper configuration of dependencies is essential for preventing failures when services rely on each other.

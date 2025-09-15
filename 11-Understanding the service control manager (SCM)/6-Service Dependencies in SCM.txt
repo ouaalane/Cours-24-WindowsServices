@@ -1,0 +1,6 @@
+Service dependencies in SCM : 
+some services rely on other services to function properly . SCM ensures that dependencies are started in 
+correct order.
+
+examples  : 
+	services A depends on service B

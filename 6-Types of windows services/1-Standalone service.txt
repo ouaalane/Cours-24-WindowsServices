@@ -1,0 +1,11 @@
+1-Standalone Services
+
+
+Description: These services operate independently without relying on other services.
+
+Purpose: Perform specific tasks that do not require communication or interaction with other services.
+
+Examples:
+
+Windows Update Service (wuauserv): Downloads and installs system updates.
+Print Spooler (Spooler): Manages print jobs sent to the printer.

@@ -1,0 +1,6 @@
+Dependent Services
+Description: These services depend on other services to function. They cannot start or run unless their dependencies are active.
+Purpose: Ensure coordinated functionality by relying on prerequisite services.
+Examples:
+DHCP Client (Dhcp): Requires the Network Store Interface Service to manage network configurations.
+SQL Server Agent (SQLSERVERAGENT): Depends on the SQL Server service to execute database-related jobs.

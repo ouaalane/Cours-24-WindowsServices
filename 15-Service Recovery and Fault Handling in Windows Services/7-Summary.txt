@@ -1,0 +1,5 @@
+Summary
+Service recovery ensures services restart or trigger corrective actions after failure.
+Recovery actions include restarting the service, running a program, or rebooting the system.
+Fault handling in code ensures services log errors and fail gracefully.
+Tools like services.msc, sc, and PowerShell allow you to configure and test recovery behavior.

@@ -1,0 +1,122 @@
+MyFullServiceStateImplementation
+This code represents a Windows Service implemented in C# named MyFullServiceStateImplementation. The service is designed to demonstrate the complete lifecycle management of a Windows Service, including core events such as starting, stopping, pausing, resuming, and shutting down.
+
+The service logs its activities with timestamps to a configurable file directory, allowing for easy monitoring and debugging of the service's state transitions.
+
+Overview of the Code
+Namespace and References:
+
+The code uses several namespaces to support essential functionality:
+System.ServiceProcess: Provides the foundation for creating Windows Services.
+System.IO: Enables file operations for logging events.
+System.Configuration: Allows reading values like the log directory from a configuration file.
+System.Diagnostics: Could be extended to provide event logging and diagnostics.
+Main Features
+1- Service Initialization:
+
+Properties Enabled:
+CanPauseAndContinue = true: The service supports pausing and resuming operations.
+CanShutdown = true: The service is notified when the system shuts down.
+Log Directory Configuration:
+The service reads the log directory path from an external configuration file (App.config) for flexibility.
+It validates the path and ensures the directory exists; otherwise, it creates the directory dynamically.
+2- Event Logging:
+
+The service logs all its state transitions (Start, Stop, Pause, Continue, Shutdown) to a file named ServiceStateLog.txt in the configured directory.
+Each log entry includes a timestamp for tracking purposes.
+
+
+Example Log Entry:
+
+[2024-12-16 15:00:01] Service Started
+[2024-12-16 15:05:30] Service Paused
+[2024-12-16 15:10:15] Service Resumed
+[2024-12-16 15:20:45] Service Stopped
+
+
+
+3- Lifecycle Event Handlers: The service overrides key lifecycle events provided by the ServiceBase class:
+
+OnStart: Triggered when the service starts.
+protected override void OnStart(string[] args)
+{
+    LogServiceEvent("Service Started");
+}
+
+
+OnStop: Triggered when the service stops.
+protected override void OnStop()
+{
+    LogServiceEvent("Service Stopped");
+}
+
+
+OnPause: Triggered when the service is paused.
+protected override void OnPause()
+{
+    LogServiceEvent("Service Paused");
+}
+
+
+OnContinue: Triggered when the service resumes after being paused.
+protected override void OnContinue()
+{
+    LogServiceEvent("Service Resumed");
+}
+
+
+OnShutdown: Triggered when the system is shutting down.
+protected override void OnShutdown()
+{
+    LogServiceEvent("Service Shutdown due to system shutdown");
+}
+Code Highlights
+1- Logging Functionality:
+
+The LogServiceEvent method is used throughout the code to write timestamped messages to the log file:
+private void LogServiceEvent(string message)
+{
+    string logMessage = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] {message}\n";
+    File.AppendAllText(logFilePath, logMessage);
+}
+
+
+2- Configuration for Flexibility:
+
+The log directory path is fetched dynamically from the App.config file:
+csharp
+Copy code
+logDirectory = ConfigurationManager.AppSettings["LogDirectory"];
+If the directory does not exist, it is created at runtime:
+csharp
+Copy code
+if (!Directory.Exists(logDirectory))
+{
+    Directory.CreateDirectory(logDirectory);
+}
+3- State Management:
+
+The service handles all possible states (Start, Stop, Pause, Resume, Shutdown), making it robust for real-world scenarios.
+How the Service Works
+Initialization:
+When the service starts, it checks the log directory configuration and initializes the logging system.
+Lifecycle Events:
+Each lifecycle event (OnStart, OnStop, OnPause, etc.) is logged to the file, allowing you to track when and how the service changes its state.
+Shutdown Support:
+If the system shuts down, the OnShutdown method ensures that the service logs this event properly before termination.
+
+
+Installation Instructions to run and manage the service:
+Download Source Code.
+Open the Solution.
+Build the project in debug mode.
+To bin directory and copy the file under debug folder.
+Create Directory "c:\MyServices\"
+Place the files under "c:\MyServices\"
+Run Command Prompt with admin previlages.
+execute these commands :
+cd c:\MyServices\
+sc create MyFullServiceStateImplementation binPath= "C:\MyServices\MyFullSelrviceStateImpementation.exe"
+The service should be installed successfully, run services.msc
+Test the service, Start, Stop, Pause, Resume , then go to check the log file under c:\ServiceLogs
+Done.

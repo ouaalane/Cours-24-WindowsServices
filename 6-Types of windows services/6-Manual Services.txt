@@ -1,0 +1,5 @@
+Manual Services
+Description: Require a manual start by an administrator or a dependent service.
+Purpose: Provide flexibility to start services only when needed.
+Examples:
+Task Scheduler Service (Schedule): Starts only when tasks are scheduled to run.

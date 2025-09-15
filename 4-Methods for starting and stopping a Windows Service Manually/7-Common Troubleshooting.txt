@@ -1,0 +1,16 @@
+Common Troubleshooting
+Service Does Not Start or Stop:
+Check logs for errors: Look in the Event Viewer (Win + S, search for 'Event Viewer`).
+Ensure dependencies are running: Use the Dependencies tab in services.msc.
+Access Denied:
+Run Command Prompt or PowerShell as Administrator.
+Service Stuck in STOP_PENDING or START_PENDING State:
+Check the service logic in OnStart or OnStop.
+Use taskkill to forcefully terminate the service:
+taskkill /f /pid <ProcessID>
+
+
+Note: you can get the process ID PID from task manager.
+
+Service Not Found: Verify the service name using:
+sc query state= all

@@ -1,0 +1,18 @@
+What Are Built-in Windows Services?
+Built-in Windows services are pre-installed services that are part of the Windows operating system. These services are designed to handle core system tasks, such as managing hardware, networks, security, and user sessions.
+
+Key Characteristics
+Provided by Microsoft as part of Windows.
+Automatically installed and configured during OS installation.
+Critical for the proper functioning of the operating system.
+Typically run in the background and start automatically.
+
+
+Examples of Built-in Windows Services
+
+
+
+When to Use Built-in Services
+When your application relies on system-level operations (e.g., networking, security updates).
+When the functionality you need is already covered by a built-in service.
+For managing routine OS tasks like printing, time synchronization, or updates.

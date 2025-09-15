@@ -1,0 +1,23 @@
+3. Using Command Prompt
+Steps to Start a Service:
+Open Command Prompt as Administrator: Press Win + S, type cmd, right-click Command Prompt, and choose Run as Administrator.
+
+
+Start the service:
+sc start "YourServiceName"
+
+
+
+Stop the service:
+sc stop "YourServiceName"
+
+
+Example:
+For a service named MyFirstWinService:
+
+sc start "MyFirstWinService"
+sc stop "MyFirstWinService"
+
+Advantages:
+Useful for automation and scripting.
+Provides detailed output about the service’s state.

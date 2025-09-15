@@ -1,0 +1,3 @@
+Deploying Windows Services
+Overview
+In this lesson, we will explore the steps and strategies for deploying Windows Services to different environments. Deploying a Windows Service requires proper packaging, installation, and configuration to ensure it runs smoothly on a target system.

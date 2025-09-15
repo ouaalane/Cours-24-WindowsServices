@@ -1,0 +1,10 @@
+ 4. Using Task Scheduler
+4. Using Task Scheduler
+For services that need to start under specific conditions or after user login, use Task Scheduler.
+
+Steps:
+Open Task Scheduler: Press Win + S, type Task Scheduler, and press Enter.
+Create a new task: Click Create Task in the right-hand pane.
+Configure triggers: Example: Set a trigger for system start-up or user login.
+Configure the action: Use the following command to start the service:
+sc start "YourServiceName"

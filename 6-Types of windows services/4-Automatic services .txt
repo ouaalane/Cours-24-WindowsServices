@@ -1,0 +1,6 @@
+Automatic Services
+Description: Start automatically when the system boots.
+Purpose: Ensure essential system components are always running.
+Examples:
+Windows Time Service (W32Time): Synchronizes the system clock.
+Windows Defender Antivirus (WinDefend): Provides real-time protection against threats.

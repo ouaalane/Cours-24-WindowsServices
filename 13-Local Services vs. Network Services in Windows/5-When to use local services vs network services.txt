@@ -1,0 +1,12 @@
+4. When to Use Local Services vs. Network Services
+Use Local Services When:
+The service performs tasks that only involve local system resources. - Example: Audio playback, print job management, or file indexing.
+You want to minimize security risks by running with minimal permissions.
+No network connectivity is needed for the service to operate.
+Example Scenario: A custom logging service that monitors files on the local system and writes logs to a local directory.
+
+Use Network Services When:
+The service needs access to network resources such as shared files, databases, or remote systems.
+The service must interact with other computers on the network.
+A balance of local and network permissions is required.
+Example Scenario: A custom file sync service that transfers data between the local machine and a network file server.

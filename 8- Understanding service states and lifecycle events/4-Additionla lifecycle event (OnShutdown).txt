@@ -1,0 +1,10 @@
+3. Additional Lifecycle Event: OnShutdown
+Triggered: When the system is shutting down.
+Purpose:
+Perform cleanup tasks specific to system shutdown, such as saving data or releasing resources.
+Code Example:
+protected override void OnShutdown()
+{
+    File.AppendAllText(@"C:\Logs\ServiceLog.txt", "Service Shutdown\n");
+    // Shutdown cleanup logic here
+}

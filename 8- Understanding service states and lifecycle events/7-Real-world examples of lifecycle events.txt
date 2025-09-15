@@ -1,0 +1,14 @@
+  Real-World Examples of Lifecycle Events
+Real-World Examples of Lifecycle Events
+Example 1: Starting a Web Server
+The web server is Installed.
+When a system admin starts it, it enters the Start-Pending state.
+Once initialization is complete, it moves to the Running state and begins handling HTTP requests.
+Example 2: Stopping a Database Service
+The database service is in the Running state.
+The admin executes a stop command, and the service transitions to Stop-Pending to complete active transactions.
+After cleanup, the service transitions to the Stopped state.
+Example 3: Maintenance on a File Indexing Service
+The service is Running.
+It transitions to Paused during a system backup to prevent resource conflicts.
+After the backup, it resumes to the Running state.

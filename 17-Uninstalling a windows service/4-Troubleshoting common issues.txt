@@ -1,0 +1,12 @@
+4. Troubleshooting Common Issues
+Issue 1: "Access Denied" Error
+Ensure you are running the Command Prompt or PowerShell as an Administrator.
+Check permissions for the service executable and registry entries.
+Issue 2: "Service in Use" Error
+Stop the service before uninstalling:
+sc stop YourServiceName
+
+Use Task Manager to terminate the service's process if it does not stop.
+Issue 3: Service Still Visible After Deletion
+Restart the computer to fully remove any lingering references.
+Manually delete the service entry from the registry (as described above).

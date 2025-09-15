@@ -1,0 +1,4 @@
+Summary
+Service priorities determine how much CPU time and resources a service receives.
+Windows assigns default priorities but allows them to be adjusted using Task Manager, sc, PowerShell, or programmatically.
+Proper use of service priorities ensures that critical tasks run efficiently without disrupting system performance.

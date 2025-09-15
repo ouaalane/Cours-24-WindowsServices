@@ -1,0 +1,15 @@
+2. Recovery Options in Windows Services
+Windows allows you to configure the following recovery actions for services:
+
+A. Recovery Actions
+
+
+B. Failure Configuration
+You can specify actions for:
+First Failure: Action taken when the service fails the first time.
+Second Failure: Action taken when the service fails a second time.
+Subsequent Failures: Action taken after multiple failures.
+C. Reset Failures Counter
+Defines the time interval (e.g., 1 day) after which the failure count resets to zero.
+D. Restart Delay
+Specifies the delay (in seconds) before restarting the service.

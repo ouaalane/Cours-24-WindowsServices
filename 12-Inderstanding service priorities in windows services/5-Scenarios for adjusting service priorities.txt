@@ -1,0 +1,10 @@
+4. Scenarios for Adjusting Service Priorities
+4. Scenarios for Adjusting Service Priorities
+Ensuring Critical Services Are Responsive:
+Example: An antivirus scanning service may require High priority to ensure security tasks are performed quickly.
+Optimizing Background Tasks:
+Example: A file indexing service can be set to Below Normal or Idle to avoid interfering with foreground applications.
+Managing Resource-Intensive Services:
+Example: A custom data-processing service may need Above Normal priority during peak times.
+Preventing Starvation:
+Example: Setting critical monitoring services to Normal ensures they run consistently without starving lower-priority tasks.

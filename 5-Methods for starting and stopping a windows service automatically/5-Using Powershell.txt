@@ -1,0 +1,16 @@
+3. Using PowerShell
+PowerShell offers a modern way to automate service configuration.
+
+Steps:
+Open PowerShell as Administrator.
+Set the service start-up type:
+Set-Service -Name "YourServiceName" -StartupType Automatic
+
+For Automatic (Delayed Start):
+Set-Service -Name "YourServiceName" -StartupType AutomaticDelayedStart
+
+
+Verify:
+Check the current start-up type:
+
+Get-Service -Name "YourServiceName" | Select-Object Name, StartType

@@ -1,0 +1,1 @@
+In this lesson, we will explore Service Recovery and Fault Handling in Windows Services. Service recovery ensures that a service can automatically restart or trigger appropriate actions after failures. Fault handling refers to strategies for detecting, logging, and recovering from errors to ensure the service remains reliable.

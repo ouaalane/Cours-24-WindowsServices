@@ -1,0 +1,12 @@
+ Introduciton
+Methods for Starting and Stopping a Windows Service Manually
+Lessons Overview
+In coming lessons, you will learn how to manually start and stop a Windows Service using different tools and methods available in Windows. Understanding these methods is essential for managing services effectively in various scenarios.
+
+Learning Objectives
+By the end of the coming lessons, you will:
+
+Understand the different methods available for starting and stopping a Windows Service.
+Learn how to use graphical tools like Services Management Console (services.msc) and Task Manager.
+Execute commands to manage services using the Command Prompt and PowerShell.
+Troubleshoot common issues when starting or stopping services.

@@ -1,0 +1,10 @@
+1. Using Services Management Console (services.msc)
+Steps:
+Open the Services Management Console: Press Win + R, type services.msc, and press Enter.
+Locate the service: Scroll through the list to find the desired service by its Display Name.
+Start the service: Right-click the service and select Start.
+Stop the service: Right-click the service and select Stop.
+Restart the service (optional): Right-click the service and select Restart.
+Advantages:
+User-friendly graphical interface.
+Provides additional information about the service (e.g., dependencies, startup type).

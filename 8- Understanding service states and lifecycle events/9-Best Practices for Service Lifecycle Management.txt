@@ -1,0 +1,12 @@
+Best Practices for Service Lifecycle Management
+Monitor Service Status
+Use tools like Task Manager, services.msc, or PowerShell to check service states.
+Example
+Get-Service -Name MyService
+
+
+
+Configure Dependencies Ensure dependent services start in the correct order.
+Graceful Shutdown Implement proper cleanup logic in the service’s OnStop method to prevent errors.
+Error Handling Use robust error handling in OnStart and OnStop to avoid prolonged pending states.
+Logging Log lifecycle events (e.g., start, stop, pause) for better troubleshooting.

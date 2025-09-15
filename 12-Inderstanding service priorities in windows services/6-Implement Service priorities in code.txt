@@ -1,0 +1,67 @@
+  5. Implementing Service Priorities in Code
+5. Implementing Service Priorities in Code
+You can programmatically set the priority class of a service process in C# using the Process class.
+
+Example Code to Adjust Priority
+In your Windows Service, you can set the priority level dynamically in the OnStart method:
+
+using System;
+using System.Diagnostics;
+using System.IO;
+using System.ServiceProcess;
+
+namespace MyServiceWithPriority
+{
+    public partial class MyServiceWithPriority : ServiceBase
+    {
+        private string logFilePath = @"C:\ServiceLogs\PriorityLog.txt";
+
+        public MyServiceWithPriority()
+        {
+            InitializeComponent();
+        }
+
+        protected override void OnStart(string[] args)
+        {
+            LogEvent("Service Started");
+
+            // Set the current process priority to High
+            Process process = Process.GetCurrentProcess();
+            process.PriorityClass = ProcessPriorityClass.High;
+
+            LogEvent($"Service Priority Set to: {process.PriorityClass}");
+        }
+
+        protected override void OnStop()
+        {
+            LogEvent("Service Stopped");
+        }
+
+        private void LogEvent(string message)
+        {
+            string logMessage = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] {message}\n";
+            File.AppendAllText(logFilePath, logMessage);
+        }
+
+        public static void Main()
+        {
+            ServiceBase.Run(new MyServiceWithPriority());
+        }
+    }
+}
+
+Code Explanation:
+1- Process.GetCurrentProcess(): Retrieves the current process for the Windows Service.
+
+2- process.PriorityClass:
+
+Adjusts the priority class of the service. Options include:
+ProcessPriorityClass.RealTime
+ProcessPriorityClass.High
+ProcessPriorityClass.AboveNormal
+ProcessPriorityClass.Normal
+ProcessPriorityClass.BelowNormal
+ProcessPriorityClass.Idle
+3- Logging:
+
+The service logs its priority level to a file for verification.

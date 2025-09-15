@@ -1,0 +1,8 @@
+5. Troubleshooting Start-Up Issues
+Service Fails to Start Automatically
+Check the Event Viewer for error messages: Press Win + S, search for Event Viewer, and review logs under Windows Logs > System.
+Ensure all dependencies are running: Open the service properties in services.msc and check the Dependencies tab.
+Verify the service account permissions: Ensure the service log-on account has the necessary permissions to start the service.
+Service Stuck in START_PENDING
+Ensure the OnStart method in your service is implemented correctly and completes promptly.
+Use logging to identify any issues during service start-up.

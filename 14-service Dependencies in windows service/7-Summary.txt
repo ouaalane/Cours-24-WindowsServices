@@ -1,0 +1,5 @@
+Summary
+Service dependencies ensure that services start and stop in the correct order, avoiding runtime failures.
+Tools like services.msc, sc, and PowerShell help you configure and troubleshoot dependencies.
+Dependencies can be defined programmatically using the ServicesDependedOn property in C#.
+Proper dependency management improves service reliability and system stability.

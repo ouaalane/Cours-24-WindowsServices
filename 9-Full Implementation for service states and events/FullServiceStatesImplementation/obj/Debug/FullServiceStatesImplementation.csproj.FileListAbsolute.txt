@@ -1,0 +1,8 @@
+C:\Programming Advice\Cours-24-Windows Services\9-Full Implementation for service states and events\FullServiceStatesImplementation\bin\Debug\FullServiceStatesImplementation.exe.config
+C:\Programming Advice\Cours-24-Windows Services\9-Full Implementation for service states and events\FullServiceStatesImplementation\bin\Debug\FullServiceStatesImplementation.exe
+C:\Programming Advice\Cours-24-Windows Services\9-Full Implementation for service states and events\FullServiceStatesImplementation\bin\Debug\FullServiceStatesImplementation.pdb
+C:\Programming Advice\Cours-24-Windows Services\9-Full Implementation for service states and events\FullServiceStatesImplementation\obj\Debug\FullServiceStatesImplementation.csproj.AssemblyReference.cache
+C:\Programming Advice\Cours-24-Windows Services\9-Full Implementation for service states and events\FullServiceStatesImplementation\obj\Debug\FullServiceStatesImplementation.csproj.CoreCompileInputs.cache
+C:\Programming Advice\Cours-24-Windows Services\9-Full Implementation for service states and events\FullServiceStatesImplementation\obj\Debug\FullServiceStatesImplementation.exe
+C:\Programming Advice\Cours-24-Windows Services\9-Full Implementation for service states and events\FullServiceStatesImplementation\obj\Debug\FullServiceStatesImplementation.pdb
+C:\Programming Advice\Cours-24-Windows Services\9-Full Implementation for service states and events\FullServiceStatesImplementation\obj\Debug\FullServiceStatesImplementation.exe.config

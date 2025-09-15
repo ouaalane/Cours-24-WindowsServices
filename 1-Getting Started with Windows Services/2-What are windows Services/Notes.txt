@@ -1,0 +1,43 @@
+What is Windows Service?
+
+
+Definition: A Windows Service is a long-running executable application that runs in the background of the Windows operating system. Unlike regular applications, it doesn’t require user interaction and can be started automatically when the computer boots up, running continuously without a user interface (UI).
+
+Key Points:
+
+Services run in the background.
+Services do not have a graphical user interface (GUI).
+They can be configured to start automatically when the system boots up.
+Services can run under different user accounts, including system accounts.
+Example: The Print Spooler service, which manages print jobs sent to the printer, runs in the background, handling tasks without requiring any user intervention.
+
+Key Characteristics of Windows Services
+Characteristics of Windows Services
+To understand how Windows Services operate, it’s important to focus on their unique characteristics:
+
+Background Processing: Windows Services run in the background and do not have any direct user interaction. They can perform tasks that are essential to system stability and performance, such as monitoring, logging, or managing hardware devices.
+No User Interface (UI): Unlike desktop applications, a Windows Service has no visual components like buttons or windows. It runs invisibly to the user, although its state (e.g., running, stopped) can be viewed and controlled through the Windows Services Manager (services.msc).
+Automatic or Manual Startup: Services can be configured to start automatically at boot time, ensuring they are always running even when no user is logged in. They can also be started manually when needed or triggered by specific events.
+Service Lifecycle: A Windows Service operates according to a specific lifecycle with different states: Running, Stopped, Paused, and Restarting. These states are managed by the Service Control Manager (SCM), which is responsible for starting, stopping, and configuring services.
+
+
+Summary:
+
+Definition and Purpose:
+Windows Services are long-running applications designed to run in the background.
+They operate independently of user interactions, ideal for repetitive or automated tasks.
+Characteristics:
+Start automatically when the OS boots.
+Lack a graphical user interface.
+Can be configured for manual or delayed starts.
+Use Cases:
+System monitoring (e.g., logging CPU usage).
+File management (e.g., automated backups).
+Scheduling (e.g., sending notifications or emails).
+Real-World Example:
+Print Spooler: Manages print jobs sent to a printer.
+SQL Server Service: Ensures SQL Server is running and accessible.
+
+Activities:
+Open services.msc, identify five running services, and research their purposes.
+Discuss how a Windows Service differs from console applications.

@@ -1,0 +1,8 @@
+C:\Programming Advice\Cours-24-Windows Services\2-Building you First Windows Service\MyFirstWinService\bin\Debug\MyFirstWinService.exe.config
+C:\Programming Advice\Cours-24-Windows Services\2-Building you First Windows Service\MyFirstWinService\bin\Debug\MyFirstWinService.exe
+C:\Programming Advice\Cours-24-Windows Services\2-Building you First Windows Service\MyFirstWinService\bin\Debug\MyFirstWinService.pdb
+C:\Programming Advice\Cours-24-Windows Services\2-Building you First Windows Service\MyFirstWinService\obj\Debug\MyFirstWinService.csproj.AssemblyReference.cache
+C:\Programming Advice\Cours-24-Windows Services\2-Building you First Windows Service\MyFirstWinService\obj\Debug\MyFirstWinService.csproj.CoreCompileInputs.cache
+C:\Programming Advice\Cours-24-Windows Services\2-Building you First Windows Service\MyFirstWinService\obj\Debug\MyFirstWinService.exe
+C:\Programming Advice\Cours-24-Windows Services\2-Building you First Windows Service\MyFirstWinService\obj\Debug\MyFirstWinService.pdb
+C:\Programming Advice\Cours-24-Windows Services\2-Building you First Windows Service\MyFirstWinService\obj\Debug\MyFirstWinService.exe.config

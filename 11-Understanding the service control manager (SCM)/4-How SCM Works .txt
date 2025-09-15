@@ -1,0 +1,12 @@
+when a service is installed SCM performs the following tasks : 
+	- registers the service : 
+		. Adds the service to the registry with details like its name,
+		  executable path ,  startuptype and dependencies.
+	- manages service state: 
+		. controls state transitions sush as start , pause,resume and stop .
+	- Monitors service Health : 
+		. logs service failures in the event viewer and triggers recovery actions (if configured).
+	
+	- Handles Dependencies : 
+		. ensures that dependent services are started or stopped in the correct order.
+	 

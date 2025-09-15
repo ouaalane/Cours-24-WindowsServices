@@ -1,0 +1,2 @@
+Overview
+In this section, we will explore the differences between built-in Windows services and custom services. Understanding their roles, functionalities, and key differences will help you decide when to rely on existing services or when to create a custom service to meet your requirements.

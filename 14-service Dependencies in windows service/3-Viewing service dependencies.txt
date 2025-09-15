@@ -1,0 +1,28 @@
+You can view the dependencies of a service using the following tools:
+
+A. Services Management Console (services.msc)
+Open Run (Win + R) and type services.msc.
+Right-click on a service and select Properties.
+Go to the Dependencies tab:
+This service depends on the following system components: Lists the services required for the service to run.
+The following system components depend on this service: Lists services that rely on the current service.
+B. Command-Line Tools (SC Command)
+Use the sc qc command to query the configuration of a service and view its dependencies.
+
+Syntax:
+sc qc <ServiceName>
+
+Example:
+sc qc Spooler
+
+Output:
+
+SERVICE_NAME: Spooler
+        DEPENDENCIES       : RPCSS
+
+The Print Spooler service depends on the RPCSS (Remote Procedure Call) service.
+C. PowerShell
+Use PowerShell to retrieve service dependencies:
+
+Get Dependencies:
+Get-Service -Name Spooler | Select-Object -Property Name, DependentServices, ServicesDependedOn

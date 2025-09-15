@@ -1,0 +1,8 @@
+1. What is Service Recovery and Fault Handling?
+Service Recovery refers to the mechanisms that Windows Services use to respond to failures, such as restarting the service automatically or running a custom program.
+Fault Handling involves writing code to detect, log, and manage errors within a service.
+Why are Service Recovery and Fault Handling Important?
+Ensures high availability of critical services.
+Reduces manual intervention when a service fails.
+Logs failures for troubleshooting and root cause analysis.
+Minimizes system downtime by automatically recovering from errors.

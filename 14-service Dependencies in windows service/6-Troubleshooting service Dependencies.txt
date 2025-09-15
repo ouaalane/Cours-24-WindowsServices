@@ -1,0 +1,11 @@
+. Troubleshooting Service Dependencies
+6. Troubleshooting Service Dependencies
+Dependency Not Starting:
+Check the status of the dependency using services.msc or sc query.
+Restart the dependency service.
+Circular Dependency Error:
+Avoid creating circular dependencies where services depend on each other.
+Dependency Not Installed:
+Verify that the required dependency service is installed and available.
+Logs for Failures:
+Use Event Viewer to check logs for dependency-related errors.

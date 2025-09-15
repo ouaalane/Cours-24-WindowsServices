@@ -1,0 +1,29 @@
+3. Tools to Interact with SCM
+You can interact with the SCM using the following tools:
+
+A. Services Management Console (services.msc)
+A graphical interface for managing Windows services.
+Key Features:
+Start, stop, pause, or restart services.
+Change service startup types (Manual, Automatic, Disabled).
+Configure recovery options for service failures.
+How to Access:
+Press Win + R, type services.msc, and press Enter.
+B. SC Command (Command Prompt)
+The sc command-line utility provides direct access to the SCM.
+
+Common SC Commands
+
+
+C. PowerShell
+PowerShell provides powerful cmdlets for managing services via SCM.
+
+Common PowerShell Commands
+
+
+D. Taks Manager
+A graphical interface for managing Windows services.
+Key Features:
+Start, stop, or restart services.
+How to Access:
+Press ctrl + shift + esc, go toservices.

@@ -1,0 +1,5 @@
+Summary
+Deploying a Windows Service involves building, installing, and configuring it on the target system.
+Tools like InstallUtil, sc, and scripts (Batch/PowerShell) simplify deployment.
+Testing the service after deployment ensures it runs smoothly and meets requirements.
+Automating deployment through scripts or CI/CD pipelines improves efficiency in production environments.

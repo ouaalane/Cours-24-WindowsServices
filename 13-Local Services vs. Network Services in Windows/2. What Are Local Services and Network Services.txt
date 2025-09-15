@@ -1,0 +1,18 @@
+ 1. What Are Local Services and Network Services?
+1. What Are Local Services and Network Services?
+Windows Services are background processes that run independently of user sessions to perform specific system or application tasks. Services can be configured to run under different service accounts, which determine their permissions and scope.
+
+A. Local Services
+Run with limited permissions on the local computer.
+Designed to perform system tasks that do not require network access.
+Uses the LocalService account, which has minimal privileges for security purposes.
+Purpose:
+
+To reduce security risks by restricting access to local resources only.
+B. Network Services
+Run with permissions that allow access to local and network resources.
+Designed for services that need to communicate over the network.
+Uses the NetworkService account, which has slightly higher permissions than the LocalService account.
+Purpose:
+
+To enable services to access resources on other systems (e.g., shared files, databases).

@@ -1,0 +1,127 @@
+Installing and Running Your Service
+Topics Covered:
+Using InstallUtil.exe:
+Locate InstallUtil.exe in the .NET Framework directory.
+Register the service using the command line.
+Managing Services:
+Start, stop, or restart the service using services.msc.
+Command Example:
+InstallUtil.exe MyFirstWinService.exe
+
+Activities:
+Install the service using InstallUtil.exe.
+Start and stop the service using services.msc.
+Verify service logs in the specified directory.
+
+
+First you Should Configure the Project:
+1. Add a Project Installer Class
+You need to include an installer class in your Windows Service project. This class specifies how the service should be installed.
+
+Steps in Visual Studio:
+Open your service project in Visual Studio.
+Right-click on the project in Solution Explorer and select:
+Add → New Item → Installer Class (or search for "Installer").
+A new file named ProjectInstaller.cs will be added.
+2. Configure the Installer Class
+Once the installer class is added, it needs to be set up to properly register your service.
+
+Modify ProjectInstaller.cs:
+Open ProjectInstaller.cs.
+Ensure the following code exists or add it manually:
+using System.ComponentModel;
+using System.ServiceProcess;
+
+[RunInstaller(true)] // Ensures InstallUtil recognizes this installer
+public class ProjectInstaller : Installer
+{
+    private ServiceProcessInstaller serviceProcessInstaller;
+    private ServiceInstaller serviceInstaller;
+
+    public ProjectInstaller()
+    {
+       InitializeComponent(); 
+
+     // Configure the Service Process Installer
+        serviceProcessInstaller = new ServiceProcessInstaller
+        {
+            Account = ServiceAccount.LocalSystem // Adjust as needed (e.g., NetworkService, LocalService)
+        };
+
+        // Configure the Service Installer
+        serviceInstaller = new ServiceInstaller
+        {
+            ServiceName = "MyFirstWinService", // Must match the ServiceName in your ServiceBase class
+            DisplayName = "My First Windows Service",
+            StartType = ServiceStartMode.Manual // Or Automatic, depending on requirements
+        };
+
+        // Add installers to the installer collection
+        Installers.Add(serviceProcessInstaller);
+        Installers.Add(serviceInstaller);
+    }
+}
+
+
+
+3. Rebuild the Project
+Save your changes.
+Rebuild the project in Visual Studio (Ctrl + Shift + B).
+Verify that the updated .exe is generated in the bin\Debug or bin\Release folder.
+Prerequisites
+Ensure you have administrative privileges on your system.
+Verify that the service application (.exe) is built and ready. Typically, this is the output of your Windows Service project in Visual Studio.
+Locate the InstallUtil.exe utility, which is required for installation. It is part of the .NET Framework.
+
+Second: Install the Services
+Step 1: Build Your Windows Service
+Open your Windows Service project in Visual Studio.
+Build the solution (Ctrl + Shift + B) to generate the executable (.exe) file.
+Locate the built file in the project’s bin\Debug or bin\Release folder.
+Step 2: Open Command Prompt with Administrator Privileges
+Press Win + S, type Command Prompt, and choose Run as Administrator.
+Confirm the UAC prompt to proceed.
+Step 3: Locate the InstallUtil.exe Tool
+The InstallUtil.exe tool is part of the .NET Framework. Its typical locations are:
+For 64-bit systems:
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe
+
+For 32-bit systems:
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe
+
+Navigate to the folder containing InstallUtil.exe or add it to your system's PATH environment variable for easier access.
+Step 4: Install the Windows Service
+Navigate to the directory containing your .exe file:
+cd "C:\Path\To\Your\WindowsService"
+
+Use InstallUtil.exe to install the service:
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe YourService.exe
+
+If successful, you’ll see messages like:
+Installing assembly 'YourService.exe'.
+The Commit phase completed successfully.
+The transacted install has completed.
+
+Step 5: Verify the Service Installation
+Press Win + S and type Services, then press Enter to open the Services Management Console (services.msc).
+Scroll through the list to locate your service by its display name.
+Verify that it appears and is set to the correct Startup Type (e.g., Manual, Automatic).
+Step 6: Start the Windows Service
+In the Services Management Console:
+Locate your service.
+Right-click on it and select Start.
+Alternatively, you can start the service using the command line:
+net start "YourServiceName"
+
+Troubleshooting Tips
+Error: InstallUtil.exe not found:
+Ensure the .NET Framework is installed.
+Use the full path to InstallUtil.exe.
+Service fails to start:
+Check the Event Viewer (Win + S, search for Event Viewer) for error logs.
+Ensure all required resources (e.g., files, database connections) are accessible.
+Missing permissions:
+Run the Command Prompt as Administrator.
+Verify file and folder permissions for the .exe file.
+Alternative Installation Method:
+If InstallUtil.exe is unavailable, consider creating an installer using tools like WiX Toolset or Visual Studio Installer Projects.

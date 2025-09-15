@@ -1,0 +1,53 @@
+4. Configuring Service Dependencies
+You can configure service dependencies during service installation or manually.
+
+A. Using Command-Line Tools
+The sc config command allows you to specify service dependencies.
+
+Syntax:
+sc config <ServiceName> depend= <Dependency1>/<Dependency2>
+
+Replace <ServiceName> with your service name.
+Use a slash / to separate multiple dependencies.
+Example:
+If a custom service named MyService depends on the RpcSs and EventLog services:
+
+sc config MyService depend= RpcSs/EventLog
+
+B. Programmatically in C#
+You can define dependencies when installing a service using the ServiceInstaller class.
+
+Example Code:
+using System.ServiceProcess;
+using System.Configuration.Install;
+using System.ComponentModel;
+
+[RunInstaller(true)]
+public class ProjectInstaller : Installer
+{
+    private ServiceProcessInstaller processInstaller;
+    private ServiceInstaller serviceInstaller;
+
+    public ProjectInstaller()
+    {
+        processInstaller = new ServiceProcessInstaller
+        {
+            Account = ServiceAccount.LocalSystem
+        };
+
+        serviceInstaller = new ServiceInstaller
+        {
+            ServiceName = "MyCustomService",
+            DisplayName = "My Custom Service",
+            StartType = ServiceStartMode.Automatic,
+            ServicesDependedOn = new string[] { "RpcSs", "EventLog" } // Dependencies
+        };
+
+        Installers.Add(processInstaller);
+        Installers.Add(serviceInstaller);
+    }
+}
+
+Key Property:
+
+ServicesDependedOn: An array of service names that the service depends on.

@@ -1,0 +1,6 @@
+Disabled Services
+Disabled Services
+Description: Cannot start unless explicitly enabled by an administrator.
+Purpose: Prevent unnecessary services from running, improving security and performance.
+Examples:
+Remote Desktop Services (TermService): Disabled by default on systems that do not require remote access.

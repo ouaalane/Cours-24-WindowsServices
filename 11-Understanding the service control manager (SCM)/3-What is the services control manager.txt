@@ -1,0 +1,11 @@
+The Services Control Manager (SCM) is a system process in Windows that manages all Windows services. It acts as an intermediary between the operating system and services, allowing administrators and the system to:
+
+Start and stop services.
+Pause and resume services.
+Handle service dependencies.
+Monitor the state of services (e.g., Running, Stopped, Paused).
+Log service failures and trigger recovery actions.
+Key Characteristics
+SCM starts as part of the Windows boot process.
+It maintains the state and configuration of services.
+It allows services to run in the background without user intervention.

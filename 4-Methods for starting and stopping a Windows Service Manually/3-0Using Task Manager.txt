@@ -1,0 +1,9 @@
+2. Using Task Manager
+Steps:
+Open Task Manager: Press Ctrl + Shift + Esc or Ctrl + Alt + Del and select Task Manager.
+Go to the Services tab.
+Locate the service: Scroll through the list or click Open Services at the bottom to launch services.msc.
+Start or stop the service: Right-click the service and choose Start or Stop.
+Advantages:
+Convenient for quick access.
+Allows switching to services.msc for detailed management.

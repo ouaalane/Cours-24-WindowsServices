@@ -1,0 +1,5 @@
+Summary
+Built-in Windows services handle core OS tasks like printing, updates, and security.
+Custom Windows services are created to meet specific operational needs that built-in services cannot fulfill.
+Choosing between built-in and custom services depends on the requirements of your application or system.
+By understanding these differences, you can leverage built-in services where possible and develop custom services when needed.

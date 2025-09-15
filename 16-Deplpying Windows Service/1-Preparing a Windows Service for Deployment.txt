@@ -1,0 +1,14 @@
+1. Preparing a Windows Service for Deployment
+Before deploying a Windows Service, ensure the following steps are completed:
+
+Build the Service:
+Compile your service project in Release mode using Visual Studio.
+The output will be a .exe file located in the bin\Release directory.
+Add the Service Installer:
+Use the ServiceProcessInstaller and ServiceInstaller classes in your project to enable installation.
+Configuration File:
+Include an App.config file (renamed to YourService.exe.config during build) for configurable settings.
+Dependencies:
+Ensure all necessary libraries (DLLs) are included and available on the target machine.
+Log Directory or Resources:
+Pre-create directories or provide configurations for logs and resources the service uses.

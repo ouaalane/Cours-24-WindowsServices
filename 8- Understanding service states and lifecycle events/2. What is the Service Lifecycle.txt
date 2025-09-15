@@ -1,0 +1,2 @@
+1. What is the Service Lifecycle?
+The service lifecycle refers to the various stages a Windows Service goes through during its operation. It begins when the service is installed and continues through its initialization, execution, and eventual termination. These states are managed by the Service Control Manager (SCM) and involve specific events triggered during transitions.

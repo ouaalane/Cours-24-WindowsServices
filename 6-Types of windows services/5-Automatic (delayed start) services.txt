@@ -1,0 +1,6 @@
+  Automatic (Delayed Start) Services
+Automatic (Delayed Start) Services
+Description: Start automatically but with a delay after critical system services have started.
+Purpose: Improve boot performance by prioritizing essential services.
+Examples:
+Background Intelligent Transfer Service (BITS): Handles background file transfers, such as Windows Update downloads.

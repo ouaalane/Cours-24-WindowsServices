@@ -1,0 +1,7 @@
+  Network Services
+Network Services
+Description Provide networking capabilities and manage communication protocols.
+Purpose Support tasks like DNS, DHCP, and file sharing.
+Examples
+DNS Client (Dnscache) Resolves domain names to IP addresses.
+Server Service (LanmanServer) Enables file and printer sharing.

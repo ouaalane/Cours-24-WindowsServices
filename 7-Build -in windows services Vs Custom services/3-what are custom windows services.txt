@@ -1,0 +1,15 @@
+What Are Custom Windows Services?
+Custom Windows services are services that you (or a developer) create to perform specific tasks. They are built using programming languages like C# and can run in the background to handle operations that the built-in services cannot accommodate.
+
+Key Characteristics
+Developed for specific business or operational needs.
+Installed and configured by the user or administrator.
+Can start automatically, manually, or on demand.
+Run independently of user sessions, even when no user is logged in.
+When to Create Custom Services
+When you need continuous background processing, such as:
+Monitoring directories for file changes.
+Processing data on a schedule.
+Automating recurring tasks (e.g., backups or database cleanups).
+When existing built-in services cannot meet the unique requirements of your application.
+When you want custom logging, monitoring, or task automation

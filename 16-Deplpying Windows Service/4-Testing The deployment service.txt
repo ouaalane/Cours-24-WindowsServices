@@ -1,0 +1,24 @@
+ 4. Testing the Deployed Service
+4. Testing the Deployed Service
+After deployment, test the service to ensure it is running as expected:
+
+1- Check Service Status: Use the sc query command:
+
+sc query YourServiceName
+
+
+
+2- Start and Stop the Service:
+
+sc start YourServiceName
+sc stop YourServiceName
+
+
+
+3- View Logs:
+
+Check the service log file (e.g., C:\ServiceLogs\Log.txt) for events.
+Use the Windows Event Viewer for errors or warnings.
+4- Verify Resource Usage:
+
+Open Task Manager → Details tab → Verify CPU and memory usage for the service.

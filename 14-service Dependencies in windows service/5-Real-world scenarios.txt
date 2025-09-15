@@ -1,0 +1,9 @@
+5. Real-World Scenarios
+Scenario 1: Web Server Dependency
+Web Server Service depends on Database Service.
+The database service must start before the web server to ensure data access.
+Scenario 2: File Sharing Service
+File and Printer Sharing Service depends on the Server Service.
+The server service must be running to allow file sharing functionality.
+Scenario 3: Custom Service
+A custom backup service depends on the Volume Shadow Copy Service to ensure snapshots are created before backups.

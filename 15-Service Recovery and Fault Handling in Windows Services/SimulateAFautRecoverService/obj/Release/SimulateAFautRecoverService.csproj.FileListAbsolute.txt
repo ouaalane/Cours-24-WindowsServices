@@ -1,0 +1,8 @@
+C:\Programming Advice\Cours-24-Windows Services\15-Service Recovery and Fault Handling in Windows Services\SimulateAFautRecoverService\bin\Release\SimulateAFautRecoverService.exe.config
+C:\Programming Advice\Cours-24-Windows Services\15-Service Recovery and Fault Handling in Windows Services\SimulateAFautRecoverService\bin\Release\SimulateAFautRecoverService.exe
+C:\Programming Advice\Cours-24-Windows Services\15-Service Recovery and Fault Handling in Windows Services\SimulateAFautRecoverService\bin\Release\SimulateAFautRecoverService.pdb
+C:\Programming Advice\Cours-24-Windows Services\15-Service Recovery and Fault Handling in Windows Services\SimulateAFautRecoverService\obj\Release\SimulateAFautRecoverService.csproj.AssemblyReference.cache
+C:\Programming Advice\Cours-24-Windows Services\15-Service Recovery and Fault Handling in Windows Services\SimulateAFautRecoverService\obj\Release\SimulateAFautRecoverService.csproj.CoreCompileInputs.cache
+C:\Programming Advice\Cours-24-Windows Services\15-Service Recovery and Fault Handling in Windows Services\SimulateAFautRecoverService\obj\Release\SimulateAFautRecoverService.exe
+C:\Programming Advice\Cours-24-Windows Services\15-Service Recovery and Fault Handling in Windows Services\SimulateAFautRecoverService\obj\Release\SimulateAFautRecoverService.pdb
+C:\Programming Advice\Cours-24-Windows Services\15-Service Recovery and Fault Handling in Windows Services\SimulateAFautRecoverService\obj\Release\SimulateAFautRecoverService.exe.config

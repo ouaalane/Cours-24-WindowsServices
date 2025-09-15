@@ -1,0 +1,22 @@
+3. Verifying Service Uninstallation
+After uninstalling the service, verify that it has been removed successfully:
+
+1- Open Services Management Console (services.msc):
+
+Check that the service no longer appears in the list.
+2- Use the sc query command to confirm:
+
+sc query YourServiceName
+
+
+
+3- If the service is deleted, the query will return:
+
+[SC] EnumQueryServicesStatus: OpenService FAILED 1060:
+The specified service does not exist as an installed service.
+
+
+
+4- Check the Windows Registry:
+
+Ensure there is no entry under HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services.

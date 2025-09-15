@@ -1,0 +1,14 @@
+  3. Configuring the Service After Deployment
+3. Configuring the Service After Deployment
+Startup Types:
+Set the appropriate startup type for the service:
+
+Automatic: Starts when the system boots.
+Manual: Requires manual start.
+Disabled: Prevents the service from starting.
+sc config YourServiceName start= auto
+
+Log On Account:
+Set the service to run as a specific account for security purposes:
+
+sc config YourServiceName obj= "NT AUTHORITY\LocalSystem"

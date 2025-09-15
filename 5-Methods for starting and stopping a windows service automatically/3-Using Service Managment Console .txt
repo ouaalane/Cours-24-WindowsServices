@@ -1,0 +1,6 @@
+1. Using Services Management Console (services.msc)
+Press Win + R, type services.msc, and press Enter.
+Locate your service in the list.
+Right-click the service and select Properties.
+In the General tab:Set the Startup type to Automatic or Automatic (Delayed Start).
+Click OK to save changes.

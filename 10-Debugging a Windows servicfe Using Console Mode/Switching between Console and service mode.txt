@@ -1,0 +1,15 @@
+  Switching Between Console and Service Modes
+Switching Between Console and Service Modes
+A. Enabling Console Mode
+By default, a Windows Service project suppresses the console window because it’s configured as a Windows Application. To enable the console window:
+
+Open Project Properties in Visual Studio.
+Go to the Application tab.
+Change the Output Type to Console Application.
+Rebuild the project.
+
+
+
+
+B. Running as a Windows Service
+After debugging, revert the Output Type to Windows Application and rebuild the project. Deploy the service using standard installation steps (e.g., InstallUtil)

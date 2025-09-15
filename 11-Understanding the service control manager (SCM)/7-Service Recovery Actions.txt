@@ -1,0 +1,13 @@
+The SCM can be configured to automatically attempt recovery actions when a service fails.
+
+Recovery Options:
+Restart the Service: SCM restarts the service after a failure.
+Run a Program: Execute a custom program or script when the service fails.
+Reboot the Computer: Restart the system if the service fails repeatedly.
+How SCM Handles Failures:
+Service Recovery Options:
+Automatically restart the service after failure.
+Run a custom program or send an alert.
+Configurable in services.msc under the Recovery tab.
+Failure Detection:
+SCM monitors services and transitions them to the "Stopped" state if they crash or fail.

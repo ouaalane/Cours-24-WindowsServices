@@ -1,0 +1,2 @@
+Uninstalling a Windows Service
+In this lesson, we will explore the various methods to uninstall a Windows Service. Understanding how to properly remove a Windows Service ensures that old, unnecessary, or malfunctioning services are cleaned up, which helps maintain system performance and security.

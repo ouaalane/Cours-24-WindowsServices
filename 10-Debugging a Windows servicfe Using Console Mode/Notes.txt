@@ -1,0 +1,17 @@
+Overview
+Debugging a Windows Service can be complex since it runs in the background as a system process. However, you can modify the service to run in console mode, allowing interactive debugging with real-time logs and breakpoints. This lesson demonstrates how to adapt and debug the your service "MyFullServiceStateImplementation" code in console mode.
+
+Objectives
+By the end of this lesson, you will:
+
+Understand how to enable and debug a Windows Service in console mode.
+Modify the MyFullServiceStateImplementation code to support console mode.
+Learn the steps to toggle between console mode and Windows Service mode.
+Set breakpoints and debug the service effectively.
+
+Why Use Console Mode for Debugging?
+Windows Services run under the Service Control Manager (SCM), which restricts certain interactions such as attaching a debugger or displaying a UI. Debugging in console mode allows you to:
+
+Simplify Testing: Console mode allows you to run the service interactively, making it easier to test and debug.
+Real-Time Feedback: Logs and outputs are directly visible in the console window.
+Breakpoint Support: You can set breakpoints and inspect variables in Visual Studio.

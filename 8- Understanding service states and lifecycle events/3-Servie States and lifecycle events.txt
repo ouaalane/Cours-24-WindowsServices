@@ -1,0 +1,93 @@
+2. Service States and Lifecycle Events
+A Windows Service can transition through the following key states during its lifecycle:
+
+A. Installed
+Description: The service has been added to the system but has not been started.
+Key Characteristics:
+The service is registered with the Service Control Manager (SCM).
+Configuration, such as startup type and dependencies, is set.
+Triggered Event: None
+No lifecycle methods are triggered during installation.
+Example:
+A newly installed database service is present but not yet running.
+B. Start-Pending
+Description: The service is in the process of starting but has not yet transitioned to the running state.
+Key Characteristics:
+The service is initializing resources, dependencies, or configurations.
+This state may include loading DLLs, initializing network connections, or validating dependencies.
+Triggered Event: OnStart
+Initialization logic for resources, background threads, or tasks is implemented here.
+Example:
+A web server service loading configuration files and initializing connections.
+Code Example:
+protected override void OnStart(string[] args)
+{
+    File.AppendAllText(@"C:\Logs\ServiceLog.txt", "Service Started\n");
+    // Initialization logic here
+}
+
+C. Running
+Description: The service is fully operational and performing its tasks.
+Key Characteristics:
+The service is now handling requests and remains in this state until stopped, paused, or restarted.
+The background logic initiated in OnStart continues to execute.
+Triggered Event: None
+The service remains in this state after OnStart completes successfully.
+Example:
+A print spooler service actively managing print jobs.
+D. Paused (Optional)
+Description: The service is temporarily halted but remains loaded in memory.
+Key Characteristics:
+Tasks stop executing, but resources are not released.
+The service can resume from this state without reinitialization.
+Triggered Events:
+OnPause: When transitioning to the paused state.
+OnContinue: When resuming from the paused state.
+Example:
+A data processing service paused to free up network bandwidth temporarily.
+Code Examples:
+protected override void OnPause()
+{
+    File.AppendAllText(@"C:\Logs\ServiceLog.txt", "Service Paused\n");
+    // Pause logic here
+}
+
+protected override void OnContinue()
+{
+    File.AppendAllText(@"C:\Logs\ServiceLog.txt", "Service Resumed\n");
+    // Resume logic here
+}
+
+E. Stop-Pending
+Description: The service is in the process of shutting down but has not yet fully stopped.
+Key Characteristics:
+The service is releasing resources, completing ongoing tasks, or saving data.
+This state may involve waiting for dependent services to stop first.
+Triggered Event: OnStop
+Cleanup and resource release logic is implemented here.
+Example:
+A database service completing active transactions before shutting down.
+Code Example:
+protected override void OnStop()
+{
+    File.AppendAllText(@"C:\Logs\ServiceLog.txt", "Service Stopped\n");
+    // Cleanup logic here
+}
+
+F. Stopped
+Description: The service is inactive and not performing any tasks.
+Key Characteristics:
+This is the default state when the service is not running.
+A stopped service can be restarted manually or automatically (depending on its configuration).
+Triggered Event: None
+The service reaches this state after the OnStop event completes successfully.
+Example:
+A backup service that runs only during scheduled times.
+G. Uninstalled
+Description: The service has been removed from the system.
+Key Characteristics:
+The service and its configuration are no longer available.
+Triggered Event: None
+No lifecycle events are triggered during uninstallation.
+Example:
+An outdated antivirus service removed after installing a new one.

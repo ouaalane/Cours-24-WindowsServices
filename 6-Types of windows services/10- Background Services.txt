@@ -1,0 +1,6 @@
+Background Services
+Description: Run in the background to handle system-level tasks or application-specific functions.
+Purpose: Perform operations like logging, monitoring, and updates without user interaction.
+Examples:
+Event Log Service (EventLog): Records system, application, and security events.
+Windows Management Instrumentation (Winmgmt): Provides management data and operations for monitoring and troubleshooting.

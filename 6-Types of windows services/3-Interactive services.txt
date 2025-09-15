@@ -1,0 +1,7 @@
+  Interactive Services
+Interactive Services
+Description: These services interact with the desktop or user interface. They are rare in modern systems due to security restrictions.
+Purpose: Allow user interaction for specific tasks.
+Examples:
+Legacy backup or monitoring services that display progress on the user's desktop.
+Important Note: Most interactive services are deprecated in favor of safer alternatives.
