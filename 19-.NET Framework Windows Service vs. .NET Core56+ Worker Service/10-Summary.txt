@@ -1,0 +1,4 @@
+Summary
+.NET Framework Windows Services are powerful for Windows environments but are limited to that platform.
+Worker Services in .NET Core are more modern, lightweight, and support cross-platform deployments.
+Choose Worker Services for new development and cross-platform requirements, while .NET Framework services may still be useful for legacy applications.

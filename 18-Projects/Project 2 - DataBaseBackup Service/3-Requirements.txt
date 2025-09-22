@@ -1,0 +1,76 @@
+Requirements
+The project must fulfill the following requirements:
+
+1. Core Functionalities
+Automated Backups:
+Perform a full backup of a specified SQL Server database.
+Save the backup file in a designated folder, appending a timestamp to the file name.
+Dynamic Configuration:
+Use App.config to configure:
+Database connection string.
+Backup folder path.
+Log folder path.
+Backup interval (in minutes).
+Example Configurations:
+<appSettings>
+    <add key="ConnectionString" value="Server=YOUR_SERVER;Database=YOUR_DATABASE;Integrated Security=True;" />
+    <add key="BackupFolder" value="C:\DatabaseBackups" />
+    <add key="LogFolder" value="C:\DatabaseBackups\Logs" />
+    <add key="BackupIntervalMinutes" value="60" />
+</appSettings>
+
+Error Handling:
+Handle errors during database connection or backup operations gracefully.
+Log detailed error messages for troubleshooting.
+2. Logging and Monitoring
+Log Activities:
+Create a log file in the log folder.
+Log the following events:
+Service start and stop events.
+Successful database backups (with file paths).
+Errors during backup or connection.
+Sample Log Output:
+[2024-12-16 14:00:00] Service Started.
+[2024-12-16 14:10:00] Database backup successful: C:\DatabaseBackups\Backup_20241216_141000.bak
+[2024-12-16 15:10:00] Error during backup: Network-related or instance-specific error occurred while establishing a connection to SQL Server.
+[2024-12-16 16:00:00] Service Stopped.
+
+3. Debugging in Console Mode
+Allow the service to run interactively in console mode for debugging.
+When running in console mode:
+Display logs directly in the console.
+Allow manual stopping of the service.
+Hint: Use Environment.UserInteractive to check if the application is running interactively.
+4. Deployment Requirements
+Include an Installer Class (ProjectInstaller.cs) to prepare the service for deployment.
+Set the service name to DatabaseBackupService.
+Set the service startup type to Automatic.
+Configure service dependencies to ensure reliable operation:
+SQL Server Service (MSSQLSERVER or a named instance).
+Remote Procedure Call (RPC) (RpcSs).
+Windows Event Log (EventLog).
+5. Testing and Validation
+Test the following scenarios to ensure functionality:
+
+Successful Backup:
+Verify that .bak files are created in the configured backup folder with a proper timestamp.
+Check that the event is logged as a success.
+Database Connection Error:
+Simulate a failure (e.g., by providing an incorrect connection string).
+Verify that the error is logged.
+Service Recovery:
+Stop the SQL Server service, then start the backup service.
+Verify that the backup service fails to start due to dependency configuration.
+Restart SQL Server and confirm that the backup service starts successfully.
+Debugging Mode:
+Run the service in console mode.
+Verify that log messages appear in the console output.
+
+
+
+Additional Notes
+Service Dependencies: Ensure the service depends on MSSQLSERVER, RpcSs, and EventLog for reliable operation.
+Exception Handling: Include detailed error messages for database connection and backup failures.
+Directory Validation: Ensure the backup and log directories exist or are created dynamically at runtime.
+Scalability: The service should handle large databases and support configurable backup intervals.
+This project provides hands-on experience with creating, deploying, and managing Windows Services, offering practical exposure to database operations and error handling. Let me know if you need any additional guidance or examples! 🚀

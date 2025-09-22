@@ -1,0 +1,20 @@
+5. Installation and Deployment
+.NET Framework Windows Service Installation
+Build the Service.
+Create a ProjectInstaller class.
+Install with InstallUtil.exe:
+InstallUtil.exe MyService.exe
+
+Manage with SCM:
+sc start MyService
+
+
+.NET Core Worker Service Installation
+Build and Publish the Service:
+dotnet publish -c Release -o C:\MyWorkerService
+
+Install with SCM:
+sc create MyWorkerService binPath= "C:\MyWorkerService\MyWorkerService.exe" start= auto
+
+Start the Service:
+sc start MyWorkerService

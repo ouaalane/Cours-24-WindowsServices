@@ -1,0 +1,7 @@
+C:\Programming Advice\Cours-24-Windows Services\18-Projects\Project 1  - File Monitoring windows Service\LogMonitoringServiceProject\bin\Release\LogMonitoringServiceProject.exe.config
+C:\Programming Advice\Cours-24-Windows Services\18-Projects\Project 1  - File Monitoring windows Service\LogMonitoringServiceProject\bin\Release\LogMonitoringServiceProject.exe
+C:\Programming Advice\Cours-24-Windows Services\18-Projects\Project 1  - File Monitoring windows Service\LogMonitoringServiceProject\bin\Release\LogMonitoringServiceProject.pdb
+C:\Programming Advice\Cours-24-Windows Services\18-Projects\Project 1  - File Monitoring windows Service\LogMonitoringServiceProject\obj\Release\LogMonitoringServiceProject.csproj.AssemblyReference.cache
+C:\Programming Advice\Cours-24-Windows Services\18-Projects\Project 1  - File Monitoring windows Service\LogMonitoringServiceProject\obj\Release\LogMonitoringServiceProject.csproj.CoreCompileInputs.cache
+C:\Programming Advice\Cours-24-Windows Services\18-Projects\Project 1  - File Monitoring windows Service\LogMonitoringServiceProject\obj\Release\LogMonitoringServiceProject.exe
+C:\Programming Advice\Cours-24-Windows Services\18-Projects\Project 1  - File Monitoring windows Service\LogMonitoringServiceProject\obj\Release\LogMonitoringServiceProject.pdb

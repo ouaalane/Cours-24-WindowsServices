@@ -1,0 +1,9 @@
+Project Objectives
+By completing this project, students will:
+
+Understand the development and lifecycle of a Windows Service.
+Learn to monitor directories and handle file operations programmatically.
+Implement logging for debugging and service monitoring.
+Use configuration files (App.config) to avoid hardcoding values.
+Integrate an Installer class to prepare the service for deployment.
+Enable debugging capabilities through console mode.

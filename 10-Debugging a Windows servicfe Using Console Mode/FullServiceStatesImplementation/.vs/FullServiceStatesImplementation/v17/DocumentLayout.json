@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Programming Advice\\Cours-24-Windows Services\\9-Full Implementation for service states and events\\FullServiceStatesImplementation\\",
+  "WorkspaceRootPath": "C:\\Programming Advice\\Cours-24-Windows Services\\10-Debugging a Windows servicfe Using Console Mode\\FullServiceStatesImplementation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32242547-0F8F-4517-9AA5-311B709164FE}|FullServiceStatesImplementation.csproj|c:\\programming advice\\cours-24-windows services\\9-full implementation for service states and events\\fullservicestatesimplementation\\fullservicestatesimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32242547-0F8F-4517-9AA5-311B709164FE}|FullServiceStatesImplementation.csproj|c:\\programming advice\\cours-24-windows services\\10-debugging a windows servicfe using console mode\\fullservicestatesimplementation\\fullservicestatesimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32242547-0F8F-4517-9AA5-311B709164FE}|FullServiceStatesImplementation.csproj|solutionrelative:fullservicestatesimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32242547-0F8F-4517-9AA5-311B709164FE}|FullServiceStatesImplementation.csproj|c:\\programming advice\\cours-24-windows services\\9-full implementation for service states and events\\fullservicestatesimplementation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32242547-0F8F-4517-9AA5-311B709164FE}|FullServiceStatesImplementation.csproj|C:\\Programming Advice\\Cours-24-Windows Services\\10-Debugging a Windows servicfe Using Console Mode\\FullServiceStatesImplementation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32242547-0F8F-4517-9AA5-311B709164FE}|FullServiceStatesImplementation.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -36,24 +36,23 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Programming Advice\\Cours-24-Windows Services\\9-Full Implementation for service states and events\\FullServiceStatesImplementation\\Program.cs",
+              "DocumentMoniker": "C:\\Programming Advice\\Cours-24-Windows Services\\10-Debugging a Windows servicfe Using Console Mode\\FullServiceStatesImplementation\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Programming Advice\\Cours-24-Windows Services\\9-Full Implementation for service states and events\\FullServiceStatesImplementation\\Program.cs",
+              "ToolTip": "C:\\Programming Advice\\Cours-24-Windows Services\\10-Debugging a Windows servicfe Using Console Mode\\FullServiceStatesImplementation\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T18:38:14.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T18:38:14.303Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FullServiceStatesImplementation.cs",
-              "DocumentMoniker": "C:\\Programming Advice\\Cours-24-Windows Services\\9-Full Implementation for service states and events\\FullServiceStatesImplementation\\FullServiceStatesImplementation.cs",
+              "DocumentMoniker": "C:\\Programming Advice\\Cours-24-Windows Services\\10-Debugging a Windows servicfe Using Console Mode\\FullServiceStatesImplementation\\FullServiceStatesImplementation.cs",
               "RelativeDocumentMoniker": "FullServiceStatesImplementation.cs",
-              "ToolTip": "C:\\Programming Advice\\Cours-24-Windows Services\\9-Full Implementation for service states and events\\FullServiceStatesImplementation\\FullServiceStatesImplementation.cs*",
-              "RelativeToolTip": "FullServiceStatesImplementation.cs*",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAswGsAAAAVAAAAAAAAAA==",
+              "ToolTip": "C:\\Programming Advice\\Cours-24-Windows Services\\10-Debugging a Windows servicfe Using Console Mode\\FullServiceStatesImplementation\\FullServiceStatesImplementation.cs",
+              "RelativeToolTip": "FullServiceStatesImplementation.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAYwHIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-09T18:31:56.679Z",
               "EditorCaption": ""

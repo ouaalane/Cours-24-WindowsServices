@@ -1,0 +1,8 @@
+C:\Programming Advice\Cours-24-Windows Services\18-Projects\Project 2 - DataBaseBackup Service\DataBaseBackupService\bin\Release\DataBaseBackupService.exe.config
+C:\Programming Advice\Cours-24-Windows Services\18-Projects\Project 2 - DataBaseBackup Service\DataBaseBackupService\bin\Release\DataBaseBackupService.exe
+C:\Programming Advice\Cours-24-Windows Services\18-Projects\Project 2 - DataBaseBackup Service\DataBaseBackupService\bin\Release\DataBaseBackupService.pdb
+C:\Programming Advice\Cours-24-Windows Services\18-Projects\Project 2 - DataBaseBackup Service\DataBaseBackupService\obj\Release\DataBaseBackupService.csproj.AssemblyReference.cache
+C:\Programming Advice\Cours-24-Windows Services\18-Projects\Project 2 - DataBaseBackup Service\DataBaseBackupService\obj\Release\DataBaseBackupService.csproj.CoreCompileInputs.cache
+C:\Programming Advice\Cours-24-Windows Services\18-Projects\Project 2 - DataBaseBackup Service\DataBaseBackupService\obj\Release\DataBaseBackupService.exe
+C:\Programming Advice\Cours-24-Windows Services\18-Projects\Project 2 - DataBaseBackup Service\DataBaseBackupService\obj\Release\DataBaseBackupService.pdb
+C:\Programming Advice\Cours-24-Windows Services\18-Projects\Project 2 - DataBaseBackup Service\DataBaseBackupService\obj\Release\DataBaseBackupService.exe.config

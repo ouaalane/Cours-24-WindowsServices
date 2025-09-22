@@ -1,0 +1,10 @@
+Project Objectives
+By completing this project, students will:
+
+Understand how to create and deploy a Windows Service for database operations.
+Learn to interact with SQL Server programmatically using ADO.NET.
+Implement periodic tasks using timers.
+Log backup activities for monitoring and debugging.
+Configure service dependencies for reliable startup.
+Debug the service in console mode.
+Prepare the service for deployment using an Installer class.

@@ -1,0 +1,13 @@
+﻿Installing assembly 'C:\Programming Advice\Cours-24-Windows Services\18-Projects\Project 1  - File Monitoring windows Service\LogMonitoringServiceProject\bin\Release\LogMonitoringServiceProject.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Programming Advice\Cours-24-Windows Services\18-Projects\Project 1  - File Monitoring windows Service\LogMonitoringServiceProject\bin\Release\LogMonitoringServiceProject.exe
+   logfile = C:\Programming Advice\Cours-24-Windows Services\18-Projects\Project 1  - File Monitoring windows Service\LogMonitoringServiceProject\bin\Release\LogMonitoringServiceProject.InstallLog
+Installing service FileMonitoringService...
+Service FileMonitoringService has been successfully installed.
+Creating EventLog source FileMonitoringService in log Application...
+Committing assembly 'C:\Programming Advice\Cours-24-Windows Services\18-Projects\Project 1  - File Monitoring windows Service\LogMonitoringServiceProject\bin\Release\LogMonitoringServiceProject.exe'.
+Affected parameters are:
+   logtoconsole = 
+   assemblypath = C:\Programming Advice\Cours-24-Windows Services\18-Projects\Project 1  - File Monitoring windows Service\LogMonitoringServiceProject\bin\Release\LogMonitoringServiceProject.exe
+   logfile = C:\Programming Advice\Cours-24-Windows Services\18-Projects\Project 1  - File Monitoring windows Service\LogMonitoringServiceProject\bin\Release\LogMonitoringServiceProject.InstallLog

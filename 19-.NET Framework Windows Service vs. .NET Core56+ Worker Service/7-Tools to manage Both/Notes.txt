@@ -1,0 +1,44 @@
+3. Common Commands for Both
+Using sc.exe
+Install a Service:
+sc create MyService binPath= "C:\Path\To\Service.exe" start= auto
+
+Start a Service:
+sc start MyService
+
+Stop a Service:
+sc stop MyService
+
+Delete a Service:
+sc delete MyService
+
+Using PowerShell
+Install a Service (PowerShell):
+New-Service -Name "MyService" -BinaryPathName "C:\Path\To\Service.exe" -DisplayName "My Service" -StartupType Automatic
+
+Start a Service:
+Start-Service -Name MyService
+
+Stop a Service:
+Stop-Service -Name MyService
+
+Remove a Service:
+Remove-Service -Name MyService
+
+Get Service Status:
+Get-Service -Name MyService
+
+Debugging in Console Mode
+For .NET Core, run the service as a console application during development:
+
+MyService.exe
+
+Observe logs and interact directly in the console, a feature not natively available in .NET Framework.
+
+4. Special Notes for .NET Core
+Configuration via appsettings.json:
+.NET Core services often use JSON-based configurations, making them easier to manage and extend.
+Cross-Platform Deployment:
+If deploying to Linux, you’ll use tools like systemctl to manage services instead of Windows-specific tools like sc.
+Conclusion
+While most interacting tools like sc, PowerShell, and services.msc remain the same, .NET Core introduces modern deployment methods, debugging options, and configuration management that simplify and enhance the development and interaction experience. 🚀

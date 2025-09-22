@@ -1,0 +1,11 @@
+  7. When to Use Each
+7. When to Use Each
+Choose .NET Framework Windows Service When:
+You are maintaining or upgrading legacy applications.
+The service is tightly integrated with Windows features.
+Migration to .NET Core is not feasible.
+Choose .NET Core Worker Service When:
+You are building new background services.
+Cross-platform compatibility is required.
+You want to deploy services in containers or the cloud.
+Modern logging, DI, and scalability are needed.

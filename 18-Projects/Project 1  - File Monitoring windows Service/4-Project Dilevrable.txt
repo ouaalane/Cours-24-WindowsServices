@@ -1,0 +1,21 @@
+Project Deliverables
+Students must submit the following:
+
+Source Code:
+The full Visual Studio project with FileMonitoringService.cs, Program.cs, ProjectInstaller.cs, and App.config.
+Build Instructions:
+Steps to build and run the service in Release mode.
+Deployment Instructions:
+Steps to install, start, stop, and uninstall the service using InstallUtil.
+Test Log:
+A sample log file demonstrating the service processing multiple files.
+Presentation: A short video presentation explaining:
+The purpose of the service.
+Core functionalities and design decisions.
+Code walkthrough for key components.
+Testing and validation results.
+Submit the video on the telegram group for this course.
+
+
+Note: i want you to get use to present your work, dont be afraid , do it.
+

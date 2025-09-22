@@ -1,0 +1,2 @@
+Overview
+In this lesson, we will explore the key differences between traditional .NET Framework Windows Services and the modern Worker Services in .NET Core/5/6+. Understanding these differences is essential for developers transitioning to newer frameworks or starting new projects.

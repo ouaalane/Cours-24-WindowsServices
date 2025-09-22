@@ -1,0 +1,7 @@
+Objectives
+By the end of this lesson, you will:
+
+Understand the architecture and lifecycle differences between Windows Services and Worker Services.
+Learn the deployment and configuration approaches for both.
+Recognize the benefits and limitations of each.
+Know when to choose one over the other.

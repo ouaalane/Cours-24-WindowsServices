@@ -1,0 +1,12 @@
+4. Lifecycle Comparison
+.NET Framework Windows Service Lifecycle
+OnStart - Triggered when the service starts.
+OnStop - Triggered when the service stops.
+OnPause - Triggered when the service pauses.
+OnContinue - Triggered when the service resumes.
+OnShutdown - Triggered during system shutdown.
+.NET Core Worker Service Lifecycle
+StartAsync - Runs when the service starts.
+ExecuteAsync - The main method that runs continuously until the service stops.
+StopAsync - Gracefully stops the service.
+CancellationToken - Signals when the service should terminate.

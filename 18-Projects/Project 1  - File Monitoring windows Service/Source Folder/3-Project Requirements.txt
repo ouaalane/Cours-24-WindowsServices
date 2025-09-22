@@ -1,0 +1,70 @@
+Requirements
+The project must fulfill the following requirements:
+
+1. Core Functionalities
+Folder Monitoring:
+Monitor a source folder for new files.
+Automatically detect any file added to the folder.
+File Processing:
+Rename each detected file using a GUID (Globally Unique Identifier).
+Move the renamed file to a destination folder.
+File Cleanup:
+Ensure the file is deleted from the source folder after successful movement.
+Dynamic Configuration:
+Use an App.config file to specify:
+Source folder path
+Destination folder path
+Log folder path
+Example Configurations:
+<appSettings>
+    <add key="SourceFolder" value="C:\FileMonitoring\Source" />
+    <add key="DestinationFolder" value="C:\FileMonitoring\Destination" />
+    <add key="LogFolder" value="C:\FileMonitoring\Logs" />
+</appSettings>
+
+2. Logging and Monitoring
+Log all key events (e.g., service start, file detected, file moved, errors) with a timestamp in a text log file.
+Logs should include:
+Service start and stop events.
+Full file paths for processed files.
+Errors, if any, during file movement or renaming.
+Sample Log Output:
+[2024-06-16 14:10:00] Service Started.
+[2024-06-16 14:10:10] File detected: C:\FileMonitoring\Source\file1.txt
+[2024-06-16 14:10:11] File moved: C:\FileMonitoring\Source\file1.txt -> C:\FileMonitoring\Destination\3f4d1e2a-d726.txt
+[2024-06-16 14:11:15] Service Stopped.
+
+3. Debugging in Console Mode
+Allow the service to run in console mode for debugging purposes.
+When run as a console application:
+Output log messages directly to the console.
+Allow manual stopping of the service with a key press.
+Hint: Use Environment.UserInteractive to check if the application is running interactively.
+4. Deployment Requirements
+Include an Installer Class (ProjectInstaller.cs) to prepare the service for deployment.
+Set the service name to FileMonitoringService.
+Set the service startup type to Automatic.
+Provide installation and uninstallation steps using InstallUtil.
+5. Testing and Validation
+Test the following scenarios to ensure functionality:
+
+Add a file to the source folder:
+Verify it is renamed using a GUID.
+Confirm it appears in the destination folder.
+Ensure the file is deleted from the source folder.
+Verify the log file:
+Check that all events are logged with correct timestamps.
+Test the service in console mode:
+Ensure logs appear in the console output.
+Test service recovery:
+Stop and restart the service.
+Validate that file monitoring resumes without issues.
+
+
+Additional Notes
+Ensure all directories specified in App.config exist or are created dynamically during service start.
+Handle exceptions gracefully and log any errors that occur during file operations.
+Use comments to explain each section of your code.
+Hint: user FileSystemWatcher to notify you about any new file added to the folder. (do your research).
+
+This project will provide practical experience in developing, deploying, and managing Windows Services with real-world applications such as file monitoring and processing. 🚀

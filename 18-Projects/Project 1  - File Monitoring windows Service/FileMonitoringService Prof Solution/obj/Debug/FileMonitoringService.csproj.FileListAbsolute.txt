@@ -1,0 +1,14 @@
+D:\Dropbox\Personal\Advices\2021\24 Windows Services\25 Project 1 - FileMonitoringService\FileMonitoringService\bin\Debug\FileMonitoringService.exe.config
+D:\Dropbox\Personal\Advices\2021\24 Windows Services\25 Project 1 - FileMonitoringService\FileMonitoringService\bin\Debug\FileMonitoringService.exe
+D:\Dropbox\Personal\Advices\2021\24 Windows Services\25 Project 1 - FileMonitoringService\FileMonitoringService\bin\Debug\FileMonitoringService.pdb
+D:\Dropbox\Personal\Advices\2021\24 Windows Services\25 Project 1 - FileMonitoringService\FileMonitoringService\obj\Debug\FileMonitoringService.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\24 Windows Services\25 Project 1 - FileMonitoringService\FileMonitoringService\obj\Debug\FileMonitoringService.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\24 Windows Services\25 Project 1 - FileMonitoringService\FileMonitoringService\obj\Debug\FileMonitoringService.exe
+D:\Dropbox\Personal\Advices\2021\24 Windows Services\25 Project 1 - FileMonitoringService\FileMonitoringService\obj\Debug\FileMonitoringService.pdb
+D:\Dropbox\Personal\Advices\2021\24 Windows Services\25 Projects\01 Project 1 - FileMonitoringService\FileMonitoringService\bin\Debug\FileMonitoringService.exe.config
+D:\Dropbox\Personal\Advices\2021\24 Windows Services\25 Projects\01 Project 1 - FileMonitoringService\FileMonitoringService\bin\Debug\FileMonitoringService.exe
+D:\Dropbox\Personal\Advices\2021\24 Windows Services\25 Projects\01 Project 1 - FileMonitoringService\FileMonitoringService\bin\Debug\FileMonitoringService.pdb
+D:\Dropbox\Personal\Advices\2021\24 Windows Services\25 Projects\01 Project 1 - FileMonitoringService\FileMonitoringService\obj\Debug\FileMonitoringService.csproj.AssemblyReference.cache
+D:\Dropbox\Personal\Advices\2021\24 Windows Services\25 Projects\01 Project 1 - FileMonitoringService\FileMonitoringService\obj\Debug\FileMonitoringService.csproj.CoreCompileInputs.cache
+D:\Dropbox\Personal\Advices\2021\24 Windows Services\25 Projects\01 Project 1 - FileMonitoringService\FileMonitoringService\obj\Debug\FileMonitoringService.exe
+D:\Dropbox\Personal\Advices\2021\24 Windows Services\25 Projects\01 Project 1 - FileMonitoringService\FileMonitoringService\obj\Debug\FileMonitoringService.pdb
