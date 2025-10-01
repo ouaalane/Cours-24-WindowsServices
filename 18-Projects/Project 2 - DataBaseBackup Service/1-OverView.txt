@@ -1,0 +1,1 @@
+The goal of this project is to design, develop, and deploy a Windows Service that automates the periodic backup of a SQL Server database. The service should log all backup activities and handle errors gracefully. Configuration values such as database connection details, backup intervals, and folder paths should be dynamic and managed via App.config
