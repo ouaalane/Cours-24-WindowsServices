@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Programming Advice\\Cours-24-Windows Services\\19-.NET Framework Windows Service vs. .NET Core56\u002B Worker Service\\MyFirstWorkerService\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{72C72E2E-B8DB-4412-AE18-A07AD194F718}|MyFirstWorkerService.csproj|c:\\programming advice\\cours-24-windows services\\19-.net framework windows service vs. .net core56\u002B worker service\\myfirstworkerservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{72C72E2E-B8DB-4412-AE18-A07AD194F718}|MyFirstWorkerService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{72C72E2E-B8DB-4412-AE18-A07AD194F718}|MyFirstWorkerService.csproj|c:\\programming advice\\cours-24-windows services\\19-.net framework windows service vs. .net core56\u002B worker service\\myfirstworkerservice\\worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72C72E2E-B8DB-4412-AE18-A07AD194F718}|MyFirstWorkerService.csproj|solutionrelative:worker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,26 +38,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Programming Advice\\Cours-24-Windows Services\\19-.NET Framework Windows Service vs. .NET Core56\u002B Worker Service\\MyFirstWorkerService\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Programming Advice\\Cours-24-Windows Services\\19-.NET Framework Windows Service vs. .NET Core56\u002B Worker Service\\MyFirstWorkerService\\appsettings.json*",
+              "RelativeToolTip": "appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-03T20:38:37.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Programming Advice\\Cours-24-Windows Services\\19-.NET Framework Windows Service vs. .NET Core56\u002B Worker Service\\MyFirstWorkerService\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Programming Advice\\Cours-24-Windows Services\\19-.NET Framework Windows Service vs. .NET Core56\u002B Worker Service\\MyFirstWorkerService\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-21T23:14:31.637Z",
+              "WhenOpened": "2025-10-03T20:36:28.208Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Worker.cs",
               "DocumentMoniker": "C:\\Programming Advice\\Cours-24-Windows Services\\19-.NET Framework Windows Service vs. .NET Core56\u002B Worker Service\\MyFirstWorkerService\\Worker.cs",
               "RelativeDocumentMoniker": "Worker.cs",
               "ToolTip": "C:\\Programming Advice\\Cours-24-Windows Services\\19-.NET Framework Windows Service vs. .NET Core56\u002B Worker Service\\MyFirstWorkerService\\Worker.cs",
               "RelativeToolTip": "Worker.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-21T19:41:34.436Z",
               "EditorCaption": ""

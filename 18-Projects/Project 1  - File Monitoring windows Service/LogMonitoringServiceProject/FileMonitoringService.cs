@@ -43,10 +43,6 @@ namespace LogMonitoringServiceProject
         private void  EnsureFoldersExist()
         {
 
-
-          
-
-
             if (!Directory.Exists(_DestinationFolder))
             {
                 Directory.CreateDirectory(_DestinationFolder);

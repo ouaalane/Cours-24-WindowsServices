@@ -52,3 +52,13 @@ C:\Programming Advice\Cours-24-Windows Services\19-.NET Framework Windows Servic
 C:\Programming Advice\Cours-24-Windows Services\19-.NET Framework Windows Service vs. .NET Core56+ Worker Service\MyFirstWorkerService\obj\Debug\net8.0\MyFirstWorkerService.pdb
 C:\Programming Advice\Cours-24-Windows Services\19-.NET Framework Windows Service vs. .NET Core56+ Worker Service\MyFirstWorkerService\obj\Debug\net8.0\MyFirstWorkerService.genruntimeconfig.cache
 C:\Programming Advice\Cours-24-Windows Services\19-.NET Framework Windows Service vs. .NET Core56+ Worker Service\MyFirstWorkerService\obj\Debug\net8.0\ref\MyFirstWorkerService.dll
+C:\Programming Advice\Cours-24-Windows Services\19-.NET Framework Windows Service vs. .NET Core56+ Worker Service\MyFirstWorkerService\bin\Debug\net8.0\Serilog.dll
+C:\Programming Advice\Cours-24-Windows Services\19-.NET Framework Windows Service vs. .NET Core56+ Worker Service\MyFirstWorkerService\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Programming Advice\Cours-24-Windows Services\19-.NET Framework Windows Service vs. .NET Core56+ Worker Service\MyFirstWorkerService\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Programming Advice\Cours-24-Windows Services\19-.NET Framework Windows Service vs. .NET Core56+ Worker Service\MyFirstWorkerService\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Programming Advice\Cours-24-Windows Services\19-.NET Framework Windows Service vs. .NET Core56+ Worker Service\MyFirstWorkerService\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Programming Advice\Cours-24-Windows Services\19-.NET Framework Windows Service vs. .NET Core56+ Worker Service\MyFirstWorkerService\bin\Debug\net8.0\Serilog.AspNetCore.dll
+C:\Programming Advice\Cours-24-Windows Services\19-.NET Framework Windows Service vs. .NET Core56+ Worker Service\MyFirstWorkerService\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+C:\Programming Advice\Cours-24-Windows Services\19-.NET Framework Windows Service vs. .NET Core56+ Worker Service\MyFirstWorkerService\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Programming Advice\Cours-24-Windows Services\19-.NET Framework Windows Service vs. .NET Core56+ Worker Service\MyFirstWorkerService\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Programming Advice\Cours-24-Windows Services\19-.NET Framework Windows Service vs. .NET Core56+ Worker Service\MyFirstWorkerService\bin\Debug\net8.0\Serilog.Sinks.Debug.dll

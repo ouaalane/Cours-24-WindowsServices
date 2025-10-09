@@ -50,7 +50,7 @@ namespace FileMonitoringService
             Directory.CreateDirectory(logFolder);
         }
 
-        
+       
 
         protected override void OnStart(string[] args)
         {
@@ -73,6 +73,7 @@ namespace FileMonitoringService
 
         protected override void OnStop()
         {
+
             fileWatcher.EnableRaisingEvents = false;
             fileWatcher.Dispose();
             Log("Service Stopped.");
@@ -99,6 +100,9 @@ namespace FileMonitoringService
             catch (Exception ex)
             {
                 Log($"Error processing file: {e.FullPath}. Exception: {ex.Message}");
+
+
+
             }
         }
 

@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Programming Advice\\Cours-24-Windows Services\\18-Projects\\Project 1  - File Monitoring windows Service\\LogMonitoringServiceProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{231E6464-7CBA-4925-AF0D-A7A2537991AC}|LogMonitoringServiceProject.csproj|c:\\programming advice\\cours-24-windows services\\18-projects\\project 1  - file monitoring windows service\\logmonitoringserviceproject\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{231E6464-7CBA-4925-AF0D-A7A2537991AC}|LogMonitoringServiceProject.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{231E6464-7CBA-4925-AF0D-A7A2537991AC}|LogMonitoringServiceProject.csproj|c:\\programming advice\\cours-24-windows services\\18-projects\\project 1  - file monitoring windows service\\logmonitoringserviceproject\\filemonitoringservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{231E6464-7CBA-4925-AF0D-A7A2537991AC}|LogMonitoringServiceProject.csproj|solutionrelative:filemonitoringservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{231E6464-7CBA-4925-AF0D-A7A2537991AC}|LogMonitoringServiceProject.csproj|c:\\programming advice\\cours-24-windows services\\18-projects\\project 1  - file monitoring windows service\\logmonitoringserviceproject\\filemonitoringservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{231E6464-7CBA-4925-AF0D-A7A2537991AC}|LogMonitoringServiceProject.csproj|solutionrelative:filemonitoringservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{231E6464-7CBA-4925-AF0D-A7A2537991AC}|LogMonitoringServiceProject.csproj|c:\\programming advice\\cours-24-windows services\\18-projects\\project 1  - file monitoring windows service\\logmonitoringserviceproject\\projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{231E6464-7CBA-4925-AF0D-A7A2537991AC}|LogMonitoringServiceProject.csproj|solutionrelative:projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -31,12 +43,50 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Programming Advice\\Cours-24-Windows Services\\18-Projects\\Project 1  - File Monitoring windows Service\\LogMonitoringServiceProject\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Programming Advice\\Cours-24-Windows Services\\18-Projects\\Project 1  - File Monitoring windows Service\\LogMonitoringServiceProject\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-09-21T19:50:33.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileMonitoringService.cs",
+              "DocumentMoniker": "C:\\Programming Advice\\Cours-24-Windows Services\\18-Projects\\Project 1  - File Monitoring windows Service\\LogMonitoringServiceProject\\FileMonitoringService.cs",
+              "RelativeDocumentMoniker": "FileMonitoringService.cs",
+              "ToolTip": "C:\\Programming Advice\\Cours-24-Windows Services\\18-Projects\\Project 1  - File Monitoring windows Service\\LogMonitoringServiceProject\\FileMonitoringService.cs",
+              "RelativeToolTip": "FileMonitoringService.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAmwAQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T19:50:27.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FileMonitoringService.cs [Design]",
+              "DocumentMoniker": "C:\\Programming Advice\\Cours-24-Windows Services\\18-Projects\\Project 1  - File Monitoring windows Service\\LogMonitoringServiceProject\\FileMonitoringService.cs",
+              "RelativeDocumentMoniker": "FileMonitoringService.cs",
+              "ToolTip": "C:\\Programming Advice\\Cours-24-Windows Services\\18-Projects\\Project 1  - File Monitoring windows Service\\LogMonitoringServiceProject\\FileMonitoringService.cs [Design]",
+              "RelativeToolTip": "FileMonitoringService.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T19:50:26.088Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ProjectInstaller.cs",
               "DocumentMoniker": "C:\\Programming Advice\\Cours-24-Windows Services\\18-Projects\\Project 1  - File Monitoring windows Service\\LogMonitoringServiceProject\\ProjectInstaller.cs",
               "RelativeDocumentMoniker": "ProjectInstaller.cs",
               "ToolTip": "C:\\Programming Advice\\Cours-24-Windows Services\\18-Projects\\Project 1  - File Monitoring windows Service\\LogMonitoringServiceProject\\ProjectInstaller.cs",
               "RelativeToolTip": "ProjectInstaller.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCQAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-20T19:25:07.203Z",
               "EditorCaption": ""
