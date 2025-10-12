@@ -55,7 +55,7 @@
               "target": "Package",
               "version": "[9.0.9, )"
             },
-            "Microsoft.Extensions.Hosting.WindowsServices": {
+            "Microsoft.Extensions.Hosting.Systemd": {
               "target": "Package",
               "version": "[9.0.9, )"
             },

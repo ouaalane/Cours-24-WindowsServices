@@ -385,20 +385,18 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Hosting.WindowsServices/9.0.9": {
+      "Microsoft.Extensions.Hosting.Systemd/9.0.9": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Hosting": "9.0.9",
-          "Microsoft.Extensions.Logging.EventLog": "9.0.9",
-          "System.ServiceProcess.ServiceController": "9.0.9"
+          "Microsoft.Extensions.Hosting": "9.0.9"
         },
         "compile": {
-          "lib/net8.0/Microsoft.Extensions.Hosting.WindowsServices.dll": {
+          "lib/net8.0/Microsoft.Extensions.Hosting.Systemd.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0/Microsoft.Extensions.Hosting.WindowsServices.dll": {
+          "lib/net8.0/Microsoft.Extensions.Hosting.Systemd.dll": {
             "related": ".xml"
           }
         },
@@ -840,31 +838,6 @@
         },
         "build": {
           "buildTransitive/net8.0/_._": {}
-        }
-      },
-      "System.ServiceProcess.ServiceController/9.0.9": {
-        "type": "package",
-        "dependencies": {
-          "System.Diagnostics.EventLog": "9.0.9"
-        },
-        "compile": {
-          "lib/net8.0/System.ServiceProcess.ServiceController.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net8.0/System.ServiceProcess.ServiceController.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/net8.0/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/net8.0/System.ServiceProcess.ServiceController.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
         }
       },
       "System.Text.Encodings.Web/9.0.9": {
@@ -1439,10 +1412,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Hosting.WindowsServices/9.0.9": {
-      "sha512": "6fbeJXazroQ7mc/bNT5P66dxhNsXbDfcIFM3xJprYJLdy1M9uXSdhJZsFl4QiDsjsH8yn2sjV3dLCx8SrdUrmg==",
+    "Microsoft.Extensions.Hosting.Systemd/9.0.9": {
+      "sha512": "LN0PimQiponV/NpNCEhrlW2buSC70YKZXUuIrM10LfKel9Oxwp6P8RWqhkLQ+GM2nXQqzOz2sEPq663pUu9RFQ==",
       "type": "package",
-      "path": "microsoft.extensions.hosting.windowsservices/9.0.9",
+      "path": "microsoft.extensions.hosting.systemd/9.0.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1450,22 +1423,16 @@
         "LICENSE.TXT",
         "PACKAGE.md",
         "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/Microsoft.Extensions.Hosting.WindowsServices.targets",
-        "buildTransitive/net462/_._",
         "buildTransitive/net8.0/_._",
-        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Hosting.WindowsServices.targets",
-        "lib/net462/Microsoft.Extensions.Hosting.WindowsServices.dll",
-        "lib/net462/Microsoft.Extensions.Hosting.WindowsServices.xml",
-        "lib/net8.0/Microsoft.Extensions.Hosting.WindowsServices.dll",
-        "lib/net8.0/Microsoft.Extensions.Hosting.WindowsServices.xml",
-        "lib/net9.0/Microsoft.Extensions.Hosting.WindowsServices.dll",
-        "lib/net9.0/Microsoft.Extensions.Hosting.WindowsServices.xml",
-        "lib/netstandard2.0/Microsoft.Extensions.Hosting.WindowsServices.dll",
-        "lib/netstandard2.0/Microsoft.Extensions.Hosting.WindowsServices.xml",
-        "lib/netstandard2.1/Microsoft.Extensions.Hosting.WindowsServices.dll",
-        "lib/netstandard2.1/Microsoft.Extensions.Hosting.WindowsServices.xml",
-        "microsoft.extensions.hosting.windowsservices.9.0.9.nupkg.sha512",
-        "microsoft.extensions.hosting.windowsservices.nuspec",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Hosting.Systemd.targets",
+        "lib/net8.0/Microsoft.Extensions.Hosting.Systemd.dll",
+        "lib/net8.0/Microsoft.Extensions.Hosting.Systemd.xml",
+        "lib/net9.0/Microsoft.Extensions.Hosting.Systemd.dll",
+        "lib/net9.0/Microsoft.Extensions.Hosting.Systemd.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Hosting.Systemd.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Hosting.Systemd.xml",
+        "microsoft.extensions.hosting.systemd.9.0.9.nupkg.sha512",
+        "microsoft.extensions.hosting.systemd.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -2107,38 +2074,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.ServiceProcess.ServiceController/9.0.9": {
-      "sha512": "G+7s4ED3AQRCnIdMRo4KceochK1RxyP+LGS49DbHJ0M2uVPG+Loo5lXOyG6mxabV7kthE6A88OKZ4vdFLz/rfg==",
-      "type": "package",
-      "path": "system.serviceprocess.servicecontroller/9.0.9",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "PACKAGE.md",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/System.ServiceProcess.ServiceController.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net8.0/_._",
-        "buildTransitive/netcoreapp2.0/System.ServiceProcess.ServiceController.targets",
-        "lib/net462/System.ServiceProcess.ServiceController.dll",
-        "lib/net462/System.ServiceProcess.ServiceController.xml",
-        "lib/net8.0/System.ServiceProcess.ServiceController.dll",
-        "lib/net8.0/System.ServiceProcess.ServiceController.xml",
-        "lib/net9.0/System.ServiceProcess.ServiceController.dll",
-        "lib/net9.0/System.ServiceProcess.ServiceController.xml",
-        "lib/netstandard2.0/System.ServiceProcess.ServiceController.dll",
-        "lib/netstandard2.0/System.ServiceProcess.ServiceController.xml",
-        "runtimes/win/lib/net8.0/System.ServiceProcess.ServiceController.dll",
-        "runtimes/win/lib/net8.0/System.ServiceProcess.ServiceController.xml",
-        "runtimes/win/lib/net9.0/System.ServiceProcess.ServiceController.dll",
-        "runtimes/win/lib/net9.0/System.ServiceProcess.ServiceController.xml",
-        "system.serviceprocess.servicecontroller.9.0.9.nupkg.sha512",
-        "system.serviceprocess.servicecontroller.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
     "System.Text.Encodings.Web/9.0.9": {
       "sha512": "bzYTmAcmfelUOCBxvbgsfSr2tq94ydA2gJZAxZRcuNa0LlmlVz8JNHst6RG1qsDujyVYT4vjv06y8sCLbvCXdg==",
       "type": "package",
@@ -2246,7 +2181,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.Extensions.Hosting >= 9.0.9",
-      "Microsoft.Extensions.Hosting.WindowsServices >= 9.0.9",
+      "Microsoft.Extensions.Hosting.Systemd >= 9.0.9",
       "Serilog >= 4.3.0",
       "Serilog.AspNetCore >= 9.0.0",
       "Serilog.Extensions.Hosting >= 9.0.0",
@@ -2310,7 +2245,7 @@
             "target": "Package",
             "version": "[9.0.9, )"
           },
-          "Microsoft.Extensions.Hosting.WindowsServices": {
+          "Microsoft.Extensions.Hosting.Systemd": {
             "target": "Package",
             "version": "[9.0.9, )"
           },

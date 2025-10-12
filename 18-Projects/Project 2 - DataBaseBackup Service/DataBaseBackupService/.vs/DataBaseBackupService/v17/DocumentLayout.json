@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Programming Advice\\Cours-24-Windows Services\\18-Projects\\Project 2 - DataBaseBackup Service\\DataBaseBackupService\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8B0835-D592-4EC8-AB38-451EA0CFA9E9}|DatabaseBackupService.csproj|c:\\programming advice\\cours-24-windows services\\18-projects\\project 2 - databasebackup service\\databasebackupservice\\databasebackupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE8B0835-D592-4EC8-AB38-451EA0CFA9E9}|DatabaseBackupService.csproj|solutionrelative:databasebackupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE8B0835-D592-4EC8-AB38-451EA0CFA9E9}|DatabaseBackupService.csproj|c:\\programming advice\\cours-24-windows services\\18-projects\\project 2 - databasebackup service\\databasebackupservice\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FE8B0835-D592-4EC8-AB38-451EA0CFA9E9}|DatabaseBackupService.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +31,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Programming Advice\\Cours-24-Windows Services\\18-Projects\\Project 2 - DataBaseBackup Service\\DataBaseBackupService\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Programming Advice\\Cours-24-Windows Services\\18-Projects\\Project 2 - DataBaseBackup Service\\DataBaseBackupService\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-11T22:03:33.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseBackupService.cs",
+              "DocumentMoniker": "C:\\Programming Advice\\Cours-24-Windows Services\\18-Projects\\Project 2 - DataBaseBackup Service\\DataBaseBackupService\\DatabaseBackupService.cs",
+              "RelativeDocumentMoniker": "DatabaseBackupService.cs",
+              "ToolTip": "C:\\Programming Advice\\Cours-24-Windows Services\\18-Projects\\Project 2 - DataBaseBackup Service\\DataBaseBackupService\\DatabaseBackupService.cs",
+              "RelativeToolTip": "DatabaseBackupService.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAIwIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-11T19:38:38.205Z",
+              "EditorCaption": ""
             }
           ]
         }

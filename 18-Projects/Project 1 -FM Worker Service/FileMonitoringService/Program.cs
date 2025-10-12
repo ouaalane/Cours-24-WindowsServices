@@ -1,29 +1,33 @@
 using FileMonitoringService;
-using Serilog;
+using Serilog;;
+
 
 var builder = Host.CreateApplicationBuilder(args);
 
-builder.Services.AddWindowsService(options =>
+var logFilePath = builder.Configuration["LogPath"];
+
+// Ensure log folder exists
+var logFolder = Path.GetDirectoryName(logFilePath);
+if (!Directory.Exists(logFolder))
 {
-    options.ServiceName = "FileMonitoringService";
-});
+    Directory.CreateDirectory(logFolder);
+}
 
-// Read file path from appsettings.json
- string filePath = builder.Configuration.GetValue<string>("LogFolder") ?? "C:\\Programming Advice\\Cours-24-Windows Services\\18-Projects\\Project 1 -FM Worker Service\\FileMonitoringService\\logs";
-
-
-
+// Configure Serilog
 Log.Logger = new LoggerConfiguration()
     .WriteTo.Console(outputTemplate: "[{Timestamp:yyyy-MM-dd HH:mm:ss}] [{Level:u3}] {Message:lj}{NewLine}{Exception}")
-    .WriteTo.File("logs\\log.txt", 
+    .WriteTo.File(
+        logFilePath,
         rollingInterval: RollingInterval.Day,
-        outputTemplate: "[{Timestamp:yyyy-MM-dd HH:mm:ss}] [{Level:u3}] {Message:lj}{NewLine}{Exception}")
+        outputTemplate: "[{Timestamp:yyyy-MM-dd HH:mm:ss}] [{Level:u3}] {Message:lj}{NewLine}{Exception}"
+    )
     .CreateLogger();
-
-
 
 builder.Logging.ClearProviders();
 builder.Logging.AddSerilog(Log.Logger);
+
+builder.Services.AddSystemd();
+
 
 builder.Services.AddHostedService<FileMonitoringWorker>();
 
